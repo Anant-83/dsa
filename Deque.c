@@ -4,6 +4,11 @@
 int dequeue[size];
 int front = -1;
 int rear = -1;
+
+
+
+
+
 void insert_front_end(int n)
 {
     if(rear == front-1 || front == 0 && rear == size-1)
